@@ -1,0 +1,1 @@
+A simple, static file based blog generator which uses a Python script to generate HTML from a template and Markdown source files.
