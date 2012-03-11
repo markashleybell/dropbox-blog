@@ -19,6 +19,10 @@ li { line-height: 1.6em; }
 #content {}
 #nav {}
 
+#comments { width: 500px; margin: 50px 0 0 21px;}
+#dsq-content h3 { font-size: 24px; }
+#dsq-subscribe { font-size: 16px; }
+
 #footer { width: 700px; margin: 0 auto; padding-bottom: 100px; }
 
 #container .gist { font-size: 13px; margin: 20px 100px 0 20px; }

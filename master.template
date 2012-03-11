@@ -8,10 +8,25 @@
         <link href='http://dl.dropbox.com/u/768836/web/css/styles.css' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     </head>
-    <body onload="prettyPrint();">
+    <body>
         <div id="header"><p><a href="index.html">My DropBox Blog</a></p></div>
         <div id="container">
             <div id="content">${content}</div>
+            <div id="comments">
+            <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'impermanentlegacy'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
             <div id="nav">${nav}</div>
         </div>
         <div id="footer"><p>&copy; Mark Ashley Bell 2012</p></div>
