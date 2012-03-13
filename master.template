@@ -4,20 +4,20 @@
         <title>My DropBox Blog</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta http-equiv="content-language" content="en-gb" />
-<<<<<<< HEAD
-        <link rel="shortcut icon" href="http://dl.dropbox.com/u/768836/web/img/favicon.ico" />
-=======
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
->>>>>>> Add viewport meta tag
+        <link rel="shortcut icon" href="http://dl.dropbox.com/u/768836/web/img/favicon.ico" />
         <base href="http://dl.dropbox.com/u/768836/web/" />
         <link href='http://dl.dropbox.com/u/768836/web/css/styles.css' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     </head>
-    <body onload="prettyPrint();">
+    <body>
         <div id="header"><p><a href="index.html">My DropBox Blog</a></p></div>
         <div id="container">
             <div id="content">${content}</div>
-            <div id="nav">${nav}</div>
+            <div id="nav">
+                <p>Older articles:</p>
+                ${nav}
+            </div>
         </div>
         <div id="footer"><p>&copy; Mark Ashley Bell 2012</p></div>
     </body>
