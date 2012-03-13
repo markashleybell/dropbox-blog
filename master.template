@@ -4,7 +4,11 @@
         <title>My DropBox Blog</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta http-equiv="content-language" content="en-gb" />
+<<<<<<< HEAD
         <link rel="shortcut icon" href="http://dl.dropbox.com/u/768836/web/img/favicon.ico" />
+=======
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+>>>>>>> Add viewport meta tag
         <base href="http://dl.dropbox.com/u/768836/web/" />
         <link href='http://dl.dropbox.com/u/768836/web/css/styles.css' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
