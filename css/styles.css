@@ -2,9 +2,9 @@ html, body, h1, h2, h3, h4, p, ul, ol, li, form, blockquote { margin: 0; padding
 
 body { font-family: Bitter, Georgia, serif; font-size: 20px; color: #000000; }
 
-h1, h2, h3, h4, p { margin: 20px 150px 0 20px; }
-ul { margin: 20px 150px 0 50px; list-style-type: square; }
-ol { margin: 20px 150px 0 55px; }
+h1, h2, h3, h4, p { margin: 20px 20px 0 20px; }
+ul { margin: 20px 20px 0 50px; list-style-type: square; }
+ol { margin: 20px 20px 0 55px; }
 
 h1 { margin-top: 40px; font-size: 55px; font-weight: normal; }
 h2 { margin-top: 0; color: gray; font-style: italic; font-size: 25px; }
@@ -12,15 +12,15 @@ h3 { font-size: 32px; }
 p { line-height: 1.6em; }
 li { line-height: 1.6em; }
 
-#header { width: 700px; margin: 0 auto; }
+#header { max-width: 550px; margin: 0 auto; }
 
-#container { width: 700px; margin: 0 auto; }
+#container { max-width: 550px; margin: 0 auto; }
 
 #content { }
 
 #nav { margin: 50px 0 0 0; }
 #nav p { font-weight: bold; font-size: 16px; }
 
-#footer { width: 700px; margin: 50px auto 0 auto; padding-bottom: 100px; }
+#footer { max-width: 550px; margin: 50px auto 0 auto; padding-bottom: 100px; }
 
 #container .gist { font-size: 13px; margin: 20px 100px 0 20px; }
